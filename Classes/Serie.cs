@@ -11,7 +11,7 @@ namespace DioSeries
         private string Titulo { get; set; }
         private string Descricao { get; set; }
         private int Ano { get; set; }
-        public bool Excluido { get; private set; }
+        public bool Excluido { get; set; }
 
 
 
@@ -23,6 +23,7 @@ namespace DioSeries
             this.Titulo = titulo;
             this.Descricao = descricao;
             this.Ano = ano;
+            this.Excluido = false;
         }
         public override string ToString()
         {

@@ -6,7 +6,7 @@ namespace DioSeries.Interfaces
     public interface IRepositorio<T>
     {
         List<T> Lista();
-        T RetornaPorId();
+        T RetornaPorId(int id);
 
         void Insere(T entidade);
 
